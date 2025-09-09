@@ -8,7 +8,7 @@ O projeto demonstra a capacidade de criar uma interface visualmente agradável e
 * **Efeitos de hover** nos links e botões, melhorando a interatividade e a experiência do usuário.
 
 ## 🚀 Acesse o Site
-
+https://aleksandraberto.github.io/WebsiteCantinhoVerde-repositorio/
 
 ## 📂 Estrutura do projeto
 /CantinhoVerdeWebsite
