@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif, 'Segoe UI';
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+header .logo img{
+    width: 60px;
+    height: 60px;
+}
+
+header h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+header h1 span{
+    color: #50b748;
+}
+
+header ul{
+    margin-top: 10px;
+}
+
+header ul li{
+    padding: 5px 20px;
+    margin: 10px;
+}
+
+header ul li a{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+header ul li a:hover{
+    color: #50b748;
+}
+
+header input{
+    padding: 8px 20px;
+    background-color: #50b748;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+header input:hover{
+    transform: scale(1.07);
+    background-color: #3e8f38;
+}
+
+.container .content{
+    width: 100%;
+    height: 90vh;
+}
+
+.content .left{
+    width: 60%;
+    padding: 0 100px;
+    margin-bottom: 70px;
+}
+
+.content .left h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content .left p{
+    font-size: 16px;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.720);
+    margin-bottom: 20px;
+}
+
+.content input{
+    padding: 8px 20px;
+    background-color: #50b748;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content input:hover{
+    transform: scale(1.07);
+    background-color: #3e8f38;
+}
+
+.content input:last-child{
+    background: none;
+    border: 2px solid #50b748;
+    color: #50b748;
+    margin-left: 15px;
+}
+
+.content .right{
+    width: 35%;
+    right: 50px;
+    position: relative;
+}
+
+.content .right img{
+    margin-top: -130px;
+    width: 100%;
+    left: 70px;
+}
